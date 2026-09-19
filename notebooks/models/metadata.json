@@ -1,0 +1,95 @@
+{
+  "modele": "Random Forest",
+  "auc_test": 0.853,
+  "num_cols": [
+    "Âge",
+    "Salaire Annuel (€)",
+    "Prime Annuelle (€)",
+    "Ancienneté (mois)",
+    "Coeff. Bonus-Malus",
+    "Nb Sinistres (3 ans)",
+    "Montant Sinistres (€)",
+    "Score Risque (0-100)"
+  ],
+  "cat_cols": [
+    "Type Contrat",
+    "Catégorie Prof.",
+    "Usage Véhicule",
+    "Dernier Sinistre"
+  ],
+  "num_ranges": {
+    "Âge": {
+      "min": 18.0,
+      "max": 79.0,
+      "median": 50.0
+    },
+    "Salaire Annuel (€)": {
+      "min": 14000.0,
+      "max": 90433.0,
+      "median": 36117.0
+    },
+    "Prime Annuelle (€)": {
+      "min": 150.0,
+      "max": 3056.0,
+      "median": 693.0
+    },
+    "Ancienneté (mois)": {
+      "min": 1.0,
+      "max": 359.0,
+      "median": 128.0
+    },
+    "Coeff. Bonus-Malus": {
+      "min": 0.5,
+      "max": 3.24,
+      "median": 0.8
+    },
+    "Nb Sinistres (3 ans)": {
+      "min": 0.0,
+      "max": 4.0,
+      "median": 0.0
+    },
+    "Montant Sinistres (€)": {
+      "min": 0.0,
+      "max": 13068.0,
+      "median": 0.0
+    },
+    "Score Risque (0-100)": {
+      "min": 0.0,
+      "max": 100.0,
+      "median": 13.0
+    }
+  },
+  "cat_values": {
+    "Type Contrat": [
+      "Bronze",
+      "Gold",
+      "Platine",
+      "Silver"
+    ],
+    "Catégorie Prof.": [
+      "Cadre",
+      "Employé",
+      "Entrepreneur",
+      "Fonctionnaire",
+      "Ouvrier",
+      "Profession libérale",
+      "Retraité",
+      "Technicien"
+    ],
+    "Usage Véhicule": [
+      "Domicile-Travail",
+      "Loisirs",
+      "Mixte",
+      "Professionnel"
+    ],
+    "Dernier Sinistre": [
+      "Accident",
+      "Aucun",
+      "Bris de glace",
+      "Catastrophe naturelle",
+      "Dégât des eaux",
+      "Incendie",
+      "Vol"
+    ]
+  }
+}
