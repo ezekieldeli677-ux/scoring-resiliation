@@ -53,7 +53,7 @@ st.title('🚗 Scoring de résiliation — Assurance Auto')
 st.caption(f"Modèle : {meta['modele']} · AUC test : {meta['auc_test']}")
 st.write('Bonjour ! Mon premier modèle en ligne.')
 
-SEUIL_RISQUE = 0.55
+SEUIL_RISQUE = 0.50
 SEUIL_MODERE = 0.40
 
 if st.button('🔮 Prédire', type='primary', use_container_width=True):
